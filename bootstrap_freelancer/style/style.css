@@ -9,3 +9,15 @@
 [class^="col-"]{
     border: 1px solid magenta;
 }
+
+.bg-green{
+    background-color: rgb(26, 189, 156)
+}
+
+.bg-blue{
+    background-color: rgb(58, 85, 110);
+}
+
+.bg-dark-blue{
+    background-color: rgb(43, 61, 79);
+}
