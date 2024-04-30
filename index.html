@@ -13,47 +13,73 @@
 </head>
 <body>
 
-<section class="jumbo bg-green">
-        <div class="container-fluid mb-5">
-            <div class="row">
-                <div>
-                    <h1>img</h1>
+<header>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+    <div class="container">
+        <div class="navbar-text">start bootstrap</div>
+
+        <div class="navbar collapse expand-md navbar-toggler">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
+
+    </div>        
+    <!-- JUMBO -->
+    <section class="jumbo bg-green">
+            <div class="container w-50 mb-5 justify-content-center">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center">
+                        <img src="./bootstrap_freelancer/img/avatar.svg" alt="" class="w-50">
+                        <h1 class="text-uppercase">start bootstrap</h1>
+                        <div class="breakline d-flex">
+                            <hr class="w-25"><i class="fa-solid fa-star w-25 color-white"></i><hr class="w-25">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-</section>
+    </section>
+</header>
 
-<section class="features">
+<main>
+    
+    <section class="features">
+            <div class="container mb-5">
+                <h1>TITOLONE</h1>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 radius-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 radius-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 radius-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 radius-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 radius-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 radius-3"></div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="about bg-green">
         <div class="container mb-5">
-            <h1>TITOLONE</h1>
+            <h1>about</h1>
             <div class="row">
-                <div class="col-md-6 col-lg-4">immagine</div>
-                <div class="col-md-6 col-lg-4">immagine</div>
-                <div class="col-md-6 col-lg-4">immagine</div>
-                <div class="col-md-6 col-lg-4">immagine</div>
-                <div class="col-md-6 col-lg-4">immagine</div>
-                <div class="col-md-6 col-lg-4">immagine</div>
+                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum similique quam facere vitae aliquam? Inventore voluptatibus minus omnis voluptatum.</div>
+                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum similique quam facere vitae aliquam? Inventore voluptatibus minus omnis voluptatum.</div>
             </div>
         </div>
-</section>
-
-<section class="about bg-green">
-    <div class="container mb-5">
-        <h1>about</h1>
-        <div class="row">
-            <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum similique quam facere vitae aliquam? Inventore voluptatibus minus omnis voluptatum.</div>
-            <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum similique quam facere vitae aliquam? Inventore voluptatibus minus omnis voluptatum.</div>
+    </section>
+    
+    <section class="contact-me">
+        <div class="container mb-5">
+            <h1>contact me</h1>
+            <h2>form</h2>
+            <div class="btn"><button>Send Form</button></div>
         </div>
-    </div>
-</section>
-
-<section class="contact-me">
-    <div class="container mb-5">
-        <h1>contact me</h1>
-        <h2>form</h2>
-        <div class="btn"><button>Send Form</button></div>
-    </div>
-</section>
+    </section>
+</main>
 
 <footer>
         <div class="container-fluid bg-blue">
@@ -64,10 +90,14 @@
             </div>
         </div>
         <div class="copyright bg-dark-blue">
-            <p>copyright</p>
+            <span>copyright</span>
         </div>
 </footer>
 
 
+<!-- BOOTSTRAP/JS CDN -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

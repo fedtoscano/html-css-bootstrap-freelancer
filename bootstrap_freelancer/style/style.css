@@ -1,17 +1,7 @@
-.container-fluid{
-    border: 1px solid salmon;
-}
-
-.row{
-    border: 1px solid greenyellow;
-}
-
-[class^="col-"]{
-    border: 1px solid magenta;
-}
 
 .bg-green{
-    background-color: rgb(26, 189, 156)
+    background-color: rgb(26, 189, 156);
+    color: white;
 }
 
 .bg-blue{
