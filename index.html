@@ -8,14 +8,14 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Freelancer</title>
 </head>
 <body>
 
 <header>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md bg-blue">
         <div class="container">
         <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,6 @@
         </div>
     </nav>
 
-    </div>        
     <!-- JUMBO -->
     <section class="jumbo bg-green">
             <div class="container w-50 mb-5 justify-content-center">
@@ -45,9 +44,12 @@
                     <div class="col-12 d-flex flex-column align-items-center">
                         <img src="./bootstrap_freelancer/img/avatar.svg" alt="" class="w-50">
                         <h1 class="text-uppercase">start bootstrap</h1>
-                        <div class="breakline d-flex">
-                            <hr class="w-25"><i class="fa-solid fa-star w-25 color-white"></i><hr class="w-25">
+                        <div class="breakline d-flex w-100">
+                            <hr class="border border-white rounded-2 border-2  w-50 align-content-center">
+                            <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
+                            <hr class="border border-white rounded-2 border-2 w-50 align-content-center">
                         </div>
+                        <p class="text-uppercase bold">graphic artist - web designer - illustrator</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +60,7 @@
     
     <section class="features">
             <div class="container mb-5">
-                <h1>TITOLONE</h1>
+                <h1 class="text-center">PORTFOLIO</h1>
                 <div class="row">
                     <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
                     <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
@@ -72,10 +74,18 @@
     
     <section class="about bg-green">
         <div class="container mb-5">
-            <h1>about</h1>
+            <h1 class="text-center text-uppercase">about</h1>
+            <div class="breakline d-flex w-100">
+                <hr class="border border-white rounded-2 border-2  w-50 align-content-center">
+                <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
+                <hr class="border border-white rounded-2 border-2 w-50 align-content-center">
+            </div>
             <div class="row">
-                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum similique quam facere vitae aliquam? Inventore voluptatibus minus omnis voluptatum.</div>
-                <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eum similique quam facere vitae aliquam? Inventore voluptatibus minus omnis voluptatum.</div>
+                <div class="col-md-6 mb-3">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optionasl LESS stylesheets for easy customization</div>
+                <div class="col-md-6 mb-3">Wheter you're a student looking to showcase you work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
+                    <div class="col-2 mx-auto">
+                        <button type="button" class="btn btn-outline-dark mb-3"><i class="fa-solid fa-download"></i> Download</button>
+                    </div>
             </div>
         </div>
     </section>
