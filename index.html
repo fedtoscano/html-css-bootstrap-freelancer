@@ -19,7 +19,7 @@
         <div class="container">
         <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav text-end">
@@ -45,9 +45,11 @@
                         <img src="./bootstrap_freelancer/img/avatar.svg" alt="" class="w-50">
                         <h1 class="text-uppercase">start bootstrap</h1>
                         <div class="breakline d-flex w-100">
-                            <hr class="border border-white rounded-2 border-2  w-50 align-content-center">
-                            <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
-                            <hr class="border border-white rounded-2 border-2 w-50 align-content-center">
+                            <div class="container d-flex w-25">
+                                <hr class="border border-white rounded-2 border-2  w-50 align-content-center opacity-100">
+                                <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
+                                <hr class="border border-white rounded-2 border-2 w-50 align-content-center opacity-100">
+                            </div>
                         </div>
                         <p class="text-uppercase bold">graphic artist - web designer - illustrator</p>
                     </div>
@@ -61,13 +63,20 @@
     <section class="features">
             <div class="container mb-5">
                 <h1 class="text-center">PORTFOLIO</h1>
+                <div class="breakline d-flex w-100">
+                    <div class="container d-flex w-25">
+                        <hr class="border border-black rounded-2 border-2  w-50 align-content-center opacity-100">
+                        <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
+                        <hr class="border border-black rounded-2 border-2 w-50 align-content-center opacity-100">
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
-                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
-                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
-                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
-                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
-                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cabin.png" alt="" class="w-100 mb-3 rounded-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/cake.png" alt="" class="w-100 mb-3 rounded-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/circus.png" alt="" class="w-100 mb-3 rounded-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/game.png" alt="" class="w-100 mb-3 rounded-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/safe.png" alt="" class="w-100 mb-3 rounded-3"></div>
+                    <div class="col-md-6 col-lg-4"><img src="./bootstrap_freelancer/img/submarine.png" alt="" class="w-100 mb-3 rounded-3"></div>
                 </div>
             </div>
     </section>
@@ -76,9 +85,11 @@
         <div class="container mb-5">
             <h1 class="text-center text-uppercase">about</h1>
             <div class="breakline d-flex w-100">
-                <hr class="border border-white rounded-2 border-2  w-50 align-content-center">
-                <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
-                <hr class="border border-white rounded-2 border-2 w-50 align-content-center">
+                <div class="container d-flex w-25">
+                    <hr class="border border-white rounded-2 border-2  w-50 align-content-center opacity-100">
+                    <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
+                    <hr class="border border-white rounded-2 border-2 w-50 align-content-center opacity-100">
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-3">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optionasl LESS stylesheets for easy customization</div>
@@ -92,23 +103,67 @@
     
     <section class="contact-me">
         <div class="container mb-5">
-            <h1>contact me</h1>
-            <h2>form</h2>
-            <div class="btn"><button>Send Form</button></div>
+            <h1 class="text-center text-uppercase">contact me</h1>
+            <div class="breakline d-flex w-100">
+                <div class="container d-flex w-25">
+                    <hr class="border border-black rounded-2 border-2  w-50 align-content-center opacity-100">
+                    <i class="fa-solid fa-star w-25 color-white text-center align-content-center"></i>
+                    <hr class="border border-black rounded-2 border-2 w-50 align-content-center opacity-100">
+                </div>
+            </div>
+            <!-- FORM -->
+            <form action="">
+                <div class="container w-50">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="phone" class="form-control" id="floatingInput" placeholder="insert your phone">
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Message</label>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 </main>
 
-<footer>
-        <div class="container-fluid bg-blue">
+<footer class="bg-blue">
+        <div class="container my-5 pt-5">
             <div class="row">
-                <div class="col-md-4">Location</div>
-                <div class="col-md-4">Around the web</div>
-                <div class="col-md-4">Freelancer</div>
+                <div class="col-md-4 d-flex flex-column align-items-center mb-3 mb-md-0">
+                    <span class="text-uppercase mb-2">Location</span>
+                    <span>2215 John Daniel Drive Clark, MO 54243</span>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center mb-3 mb-md-0">
+                    <span class="text-uppercase mb-2">around the web</span>
+                    <span>
+                        <i class="fa-brands fa-facebook-f rounded-circle border p-3"></i>
+                        <i class="fa-brands fa-google-plus-g rounded-circle border p-3"></i>
+                        <i class="fa-brands fa-twitter rounded-circle border p-3"></i>
+                        <i class="fa-brands fa-linkedin-in rounded-circle border p-3"></i>                    
+                    </span>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <span class="text-uppercase mb-2">about freelancer</span>
+                    <p class="text-center">Freelance is a free to use, open-source Bootstrap Theme created by <a href="#" class="text-success">Start Bootstrap</a></p>
+                </div>
             </div>
         </div>
-        <div class="copyright bg-dark-blue">
-            <span>copyright</span>
+        <div class="copyright bg-dark-blue col-12 text-center p-4">
+            <span class="text-center">Copyright @ Your Website 2019</span>
         </div>
 </footer>
 
